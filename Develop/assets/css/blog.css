@@ -36,7 +36,7 @@ article p {
 }
 
 footer {
-  position:fixed;
+  position: absolute;
   inset: 0;
   top: calc(100% - 5rem);
 }
@@ -58,50 +58,50 @@ ul {
   list-style: none;
 }
 
-/*
+  /*
   Classes
 */
-.card {
-  flex: 1 1 50%;
-  border: 2px solid;
-  border-radius: 4px;
-}
+  .card {
+    flex: 1 1 50%;
+    border: 2px solid;
+    border-radius: 4px;
+  }
 
-.dark a {
-  color: var(--light);
-}
+  .dark a {
+    color: var(--light);
+  }
 
-.light footer {
-  border-top: double 1rem;
-}
+  .light footer {
+    border-top: double 1rem;
+  }
 
-.light a {
-  color: var(--dark);
-}
+  .light a {
+    color: var(--dark);
+  }
 
-/*
+  /*
   IDs
 */
-#back {
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  margin-right: 1rem;
-  border: groove black;
-  background-color: var(--dark-accent);
-  color: var(--light);
-}
+  #back {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-right: 1rem;
+    border: groove black;
+    background-color: var(--dark-accent);
+    color: var(--light);
+  }
 
 
-#back:active {
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
-  background-color: var(--dark-accent);
-}
+  #back:active {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+    background-color: var(--dark-accent);
+  }
 
-#back:hover {
-  border-style: inset;
-  background-color: var(--dark-accent-action);
-}
+  #back:hover {
+    border-style: inset;
+    background-color: var(--dark-accent-action);
+  }
 
-#love {
-  text-align: center;
-}
+  #love {
+    text-align: center;
+  }
